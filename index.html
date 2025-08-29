@@ -1,377 +1,188 @@
 <!DOCTYPE html>
-
 <html lang="es">
-
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advertencia sobre Temu - No caigas en la trampa</title>
+    <meta name="description" content="Testimonios reales sobre las prácticas engañosas de Temu. Infórmate antes de registrarte y evita perder tiempo en falsas promesas de regalos.">
+    <meta property="og:title" content="Advertencia sobre Temu - No caigas en la trampa">
+    <meta property="og:description" content="Testimonios de usuarios que exponen cómo funcionan los supuestos regalos gratis en Temu.">
+    <meta property="og:image" content="https://images.unsplash.com/photo-1607082349566-1873421659c5?w=1200&auto=format&fit=crop&q=80">
+    <meta property="og:type" content="website">
 
-<meta charset="UTF-8">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<title>Advertencia sobre Temu - No caigas en la trampa</title>
-
-<meta name="description" content="Testimonios reales sobre las prácticas engañosas de Temu. Infórmate antes de registrarte y evita perder tiempo en falsas promesas de regalos.">
-
-<meta property="og:title" content="Advertencia sobre Temu - No caigas en la trampa">
-
-<meta property="og:description" content="Testimonios de usuarios que exponen cómo funcionan los supuestos regalos gratis en Temu.">
-
-<meta property="og:image" content="https://images.unsplash.com/photo-1607082349566-1873421659c5?w=1200&auto=format&fit=crop&q=80">
-
-<meta property="og:type" content="website">
-
-
-
-<script src="https://cdn.tailwindcss.com"></script>
-
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-
-
-
-<script>
-
-tailwind.config = {
-
-theme: {
-
-extend: {
-
-fontFamily: {
-
-sans: ['Inter', 'sans-serif'],
-
-},
-
-},
-
-},
-
-};
-
-</script>
-
-<style>
-
-body {
-
-font-family: 'Inter', sans-serif;
-
-background-color: #f3f4f6;
-
-}
-
-.message-box {
-
-position: fixed;
-
-top: 20px;
-
-left: 50%;
-
-transform: translateX(-50%);
-
-background-color: #4CAF50;
-
-color: white;
-
-padding: 15px;
-
-border-radius: 8px;
-
-box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-
-z-index: 1000;
-
-display: none;
-
-text-align: center;
-
-}
-
-</style>
-
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                    },
+                },
+            },
+        };
+    </script>
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f3f4f6;
+        }
+        .message-box {
+            position: fixed;
+            top: 20px;
+            left: 50%;
+            transform: translateX(-50%);
+            background-color: #4CAF50;
+            color: white;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            z-index: 1000;
+            display: none;
+            text-align: center;
+        }
+    </style>
 </head>
-
 <body class="bg-gray-50 text-gray-800">
 
-
-
-<div class="message-box" id="messageBox"></div>
-
-
-
-<!-- Encabezado y banner principal -->
-
-<header class="bg-purple-600 text-white py-12 px-4 shadow-lg">
-
-<div class="container mx-auto text-center">
-
-<h1 class="text-4xl sm:text-5xl lg:text-6xl font-extrabold mb-4">¡Cuidado con Temu!</h1>
-
-<p class="text-xl sm:text-2xl font-light mb-6">Información importante para nuevos usuarios</p>
-
-<a href="#testimonios" class="inline-block bg-white text-purple-600 font-bold py-3 px-8 rounded-full shadow-lg hover:bg-purple-100 transition duration-300 transform hover:scale-105">
-
-Leer testimonios
-
-</a>
-
-</div>
-
-</header>
-
-
-
-<!-- Sección de resumen del problema -->
-
-<main class="container mx-auto py-16 px-4">
-
-<section class="mb-16">
-
-<div class="grid md:grid-cols-2 gap-12 items-center">
-
-<div>
-
-<h2 class="text-3xl sm:text-4xl font-bold text-purple-700 mb-6">La verdad detrás de los "regalos"</h2>
-
-<p class="text-lg leading-relaxed text-gray-700 mb-4">
-
-Muchas personas se sienten atraídas por las ofertas de Temu, especialmente por la promesa de regalos o productos gratis al invitar a amigos. Sin embargo, lo que parece una oportunidad única, a menudo se convierte en una experiencia frustrante y sin recompensa.
-
-</p>
-
-<p class="text-lg leading-relaxed text-gray-700">
-
-La realidad es que, en la mayoría de los casos, los usuarios se quedan esperando un premio que nunca llega. Las condiciones son casi imposibles de cumplir y las "recompensas" son ilusorias.
-
-</p>
-
-</div>
-
-<div class="flex justify-center">
-
-<img src="https://images.unsplash.com/photo-1607082349566-1873421659c5?w=800&auto=format&fit=crop&q=80" alt="Caja de regalo abierta como símbolo de promesas vacías" class="rounded-2xl shadow-xl w-full max-w-lg h-auto">
-
-</div>
-
-</div>
-
-</section>
-
-
-
-<!-- Sección de testimonios -->
-
-<section id="testimonios" class="bg-purple-50 p-8 rounded-2xl shadow-inner">
-
-<h2 class="text-3xl sm:text-4xl font-bold text-center text-purple-700 mb-10">Testimonios de usuarios</h2>
-
-<div class="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
-
-<!-- Testimonio 1 -->
-
-<div class="bg-white p-6 rounded-xl shadow-md border-t-4 border-purple-500">
-
-<p class="italic text-gray-600 mb-4">
-
-<i class="fas fa-quote-left text-purple-400 mr-2"></i>
-
-"Es verdad cuando dicen que es engañosa esta app, habla de regalos que nunca podés conseguir por que yo hice el paso a paso y sea cual sea la cantidad de invitados que tengas siempre te dice que falta completar la tarea, no la recomiendo por incumplimiento por más que tenga precios muy accesibles."
-
-<i class="fas fa-quote-right text-purple-400 ml-2"></i>
-
-</p>
-
-<p class="font-semibold text-right text-purple-600">- Candela Anabel Romero</p>
-
-</div>
-
-<!-- Testimonio 2 -->
-
-<div class="bg-white p-6 rounded-xl shadow-md border-t-4 border-purple-500">
-
-<p class="italic text-gray-600 mb-4">
-
-<i class="fas fa-quote-left text-purple-400 mr-2"></i>
-
-"Muy malo, sus ofertas gratis son una mentira, mande todo y cuando según quedaba solo 1 y me lo aceptaron me salio otra cosa que se lo tenia que mandar a 50 usuarios más, eso es una perdida de tiempo, solo lo hacen para que mandemos las invitaciones y después no nos dan nada, como que si tuviéramos 570 amigos para mandárselo, todo eso es una farsa, mejor borren temu."
-
-<i class="fas fa-quote-right text-purple-400 ml-2"></i>
-
-</p>
-
-<p class="font-semibold text-right text-purple-600">- Sol Angie Suazo Sánchez</p>
-
-</div>
-
-<!-- Testimonio 3 -->
-
-<div class="bg-white p-6 rounded-xl shadow-md border-t-4 border-purple-500">
-
-<p class="italic text-gray-600 mb-4">
-
-<i class="fas fa-quote-left text-purple-400 mr-2"></i>
-
-"ESTAFADORES!!! ESO ES UNA ESTAFA Y LOS BONOS POR COMPRA TAMBIEN. NO ENVÍAN LOS PRODUCTOS 'GRATIS' CON LOS QUE LO CONVENCEN DE COMPRAR Y DILATAN LAS DEVOLUCIONES PARA QUE UNO TENGA QUE CANCELARLAS. El acuario y la granja son una pérdida de tiempo. Y ni que decir de los supuestos premios. ¿alguien garantiza que después de desperdiciar tanto tiempo en tareas cuya recompensa cada vez es menos (jugando con la paradoja de la división infinita) le van enviar los productos gratis? ESTAFA!!!!!! LADRONES."
-
-<i class="fas fa-quote-right text-purple-400 ml-2"></i>
-
-</p>
-
-<p class="font-semibold text-right text-purple-600">- Hernán Payares</p>
-
-</div>
-
-</div>
-
-</section>
-
-
-
-<!-- Preguntas Frecuentes -->
-
-<section class="mt-16">
-
-<div class="grid md:grid-cols-2 gap-12 items-center">
-
-<div class="flex justify-center">
-
-<img src="https://images.unsplash.com/photo-1581338834647-bac79f4a5aeb?w=800&auto=format&fit=crop&q=80" alt="Signo de interrogación como metáfora de dudas sobre Temu" class="rounded-2xl shadow-xl w-full max-w-lg h-auto">
-
-</div>
-
-<div>
-
-<h2 class="text-3xl sm:text-4xl font-bold text-purple-700 mb-6">Preguntas Frecuentes</h2>
-
-<div class="space-y-6 text-gray-700">
-
-<div>
-
-<h3 class="font-semibold text-xl">¿Por qué Temu ofrece estos regalos?</h3>
-
-<p class="mt-2 leading-relaxed">
-
-Es una estrategia de marketing para ganar nuevos usuarios de forma masiva y rápida. A través de la promesa de regalos, incentivan a los usuarios a invitar a sus amigos, dándoles publicidad gratuita.
-
-</p>
-
-</div>
-
-<div>
-
-<h3 class="font-semibold text-xl">¿Qué pasa con mis datos personales?</h3>
-
-<p class="mt-2 leading-relaxed">
-
-Al participar, la aplicación puede acceder a tu lista de contactos y a otros datos que, según las políticas de privacidad, podrían ser usados para fines de marketing o para enviar notificaciones a tus amigos sin su consentimiento explícito.
-
-</p>
-
-</div>
-
-</div>
-
-</div>
-
-</div>
-
-</section>
-
-
-
-<!-- Recursos útiles -->
-
-<section class="mt-16 bg-gray-100 p-8 rounded-2xl shadow-inner">
-
-<h2 class="text-3xl sm:text-4xl font-bold text-purple-700 mb-6 text-center">Recursos útiles</h2>
-
-<ul class="space-y-4 text-lg text-gray-700 text-center">
-
-<li><a href="https://www.argentina.gob.ar/produccion/defensadelconsumidor" target="_blank" class="text-purple-600 hover:underline">Defensa del Consumidor Argentina</a></li>
-
-<li><a href="https://www.trustpilot.com/review/temu.com" target="_blank" class="text-purple-600 hover:underline">Opiniones en Trustpilot</a></li>
-
-<li><a href="https://www.reddit.com/r/Temu/" target="_blank" class="text-purple-600 hover:underline">Foro de usuarios en Reddit</a></li>
-
-</ul>
-
-</section>
-
-
-
-<!-- Consejo final -->
-
-<section class="mt-16 text-center">
-
-<h2 class="text-3xl sm:text-4xl font-bold text-purple-700 mb-6">Nuestra recomendación</h2>
-
-<p class="text-lg leading-relaxed text-gray-700 max-w-3xl mx-auto">
-
-Te aconsejamos ser precavido con las promesas de regalos fáciles. La mejor forma de evitar una decepción es no participar en estos esquemas. Si necesitas comprar algo, busca plataformas con prácticas de marketing más transparentes y un historial probado de recompensas genuinas.
-
-</p>
-
-</section>
-
-</main>
-
-
-
-<!-- Pie de página -->
-
-<footer class="bg-gray-800 text-gray-400 py-8 px-4 text-center">
-
-<p>&copy; 2024 Advertencia sobre Temu. Todos los derechos reservados.</p>
-
-<p class="mt-2">Creado con el objetivo de informar y proteger a la comunidad.</p>
-
-</footer>
-
-
-
-<script>
-
-function showMessage(message, type) {
-
-const messageBox = document.getElementById('messageBox');
-
-messageBox.textContent = message;
-
-messageBox.style.backgroundColor = type === 'error' ? '#F44336' : '#4CAF50';
-
-messageBox.style.display = 'block';
-
-setTimeout(() => {
-
-messageBox.style.display = 'none';
-
-}, 3000);
-
-}
-
-
-
-// Scroll suave
-
-document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-
-anchor.addEventListener('click', function (e) {
-
-e.preventDefault();
-
-document.querySelector(this.getAttribute('href')).scrollIntoView({
-
-behavior: 'smooth'
-
-});
-
-});
-
-});
-
-</script>
-
+    <div class="message-box" id="messageBox"></div>
+
+    <!-- Encabezado y banner principal -->
+    <header class="bg-purple-600 text-white py-12 px-4 shadow-lg">
+        <div class="container mx-auto text-center">
+            <h1 class="text-4xl sm:text-5xl lg:text-6xl font-extrabold mb-4">¡Cuidado con Temu!</h1>
+            <p class="text-xl sm:text-2xl font-light mb-6">Información importante para nuevos usuarios</p>
+            <a href="#testimonios" class="inline-block bg-white text-purple-600 font-bold py-3 px-8 rounded-full shadow-lg hover:bg-purple-100 transition duration-300 transform hover:scale-105">
+                Leer testimonios
+            </a>
+        </div>
+    </header>
+
+    <!-- Sección de resumen del problema -->
+    <main class="container mx-auto py-16 px-4">
+        <section class="mb-16">
+            <div class="grid md:grid-cols-2 gap-12 items-center">
+                <div>
+                    <h2 class="text-3xl sm:text-4xl font-bold text-purple-700 mb-6">La verdad detrás de los "regalos"</h2>
+                    <p class="text-lg leading-relaxed text-gray-700 mb-4">
+                        Muchas personas se sienten atraídas por las ofertas de Temu, especialmente por la promesa de regalos o productos gratis al invitar a amigos. Sin embargo, lo que parece una oportunidad única, a menudo se convierte en una experiencia frustrante y sin recompensa.
+                    </p>
+                    <p class="text-lg leading-relaxed text-gray-700">
+                        La realidad es que, en la mayoría de los casos, los usuarios se quedan esperando un premio que nunca llega. Las condiciones son casi imposibles de cumplir y las "recompensas" son ilusorias.
+                    </p>
+                </div>
+                <div class="flex justify-center">
+                    <img src="https://images.unsplash.com/photo-1607082349566-1873421659c5?w=800&auto=format&fit=crop&q=80" alt="Caja de regalo abierta como símbolo de promesas vacías" class="rounded-2xl shadow-xl w-full max-w-lg h-auto">
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección de testimonios -->
+        <section id="testimonios" class="bg-purple-50 p-8 rounded-2xl shadow-inner">
+            <h2 class="text-3xl sm:text-4xl font-bold text-center text-purple-700 mb-10">Testimonios de usuarios</h2>
+            <div class="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
+                <!-- Testimonio 1 -->
+                <div class="bg-white p-6 rounded-xl shadow-md border-t-4 border-purple-500">
+                    <p class="italic text-gray-600 mb-4">
+                        <i class="fas fa-quote-left text-purple-400 mr-2"></i>
+                        "Es verdad cuando dicen que es engañosa esta app, habla de regalos que nunca podés conseguir por que yo hice el paso a paso y sea cual sea la cantidad de invitados que tengas siempre te dice que falta completar la tarea, no la recomiendo por incumplimiento por más que tenga precios muy accesibles."
+                        <i class="fas fa-quote-right text-purple-400 ml-2"></i>
+                    </p>
+                    <p class="font-semibold text-right text-purple-600">- Candela Anabel Romero</p>
+                </div>
+                <!-- Testimonio 2 -->
+                <div class="bg-white p-6 rounded-xl shadow-md border-t-4 border-purple-500">
+                    <p class="italic text-gray-600 mb-4">
+                        <i class="fas fa-quote-left text-purple-400 mr-2"></i>
+                        "Muy malo, sus ofertas gratis son una mentira, mande todo y cuando según quedaba solo 1 y me lo aceptaron me salio otra cosa que se lo tenia que mandar a 50 usuarios más, eso es una perdida de tiempo, solo lo hacen para que mandemos las invitaciones y después no nos dan nada, como que si tuviéramos 570 amigos para mandárselo, todo eso es una farsa, mejor borren temu."
+                        <i class="fas fa-quote-right text-purple-400 ml-2"></i>
+                    </p>
+                    <p class="font-semibold text-right text-purple-600">- Sol Angie Suazo Sánchez</p>
+                </div>
+                <!-- Testimonio 3 -->
+                <div class="bg-white p-6 rounded-xl shadow-md border-t-4 border-purple-500">
+                    <p class="italic text-gray-600 mb-4">
+                        <i class="fas fa-quote-left text-purple-400 mr-2"></i>
+                        "ESTAFADORES!!! ESO ES UNA ESTAFA Y LOS BONOS POR COMPRA TAMBIEN. NO ENVÍAN LOS PRODUCTOS 'GRATIS' CON LOS QUE LO CONVENCEN DE COMPRAR Y DILATAN LAS DEVOLUCIONES PARA QUE UNO TENGA QUE CANCELARLAS. El acuario y la granja son una pérdida de tiempo. Y ni que decir de los supuestos premios. ¿alguien garantiza que después de desperdiciar tanto tiempo en tareas cuya recompensa cada vez es menos (jugando con la paradoja de la división infinita) le van enviar los productos gratis? ESTAFA!!!!!! LADRONES."
+                        <i class="fas fa-quote-right text-purple-400 ml-2"></i>
+                    </p>
+                    <p class="font-semibold text-right text-purple-600">- Hernán Payares</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Preguntas Frecuentes -->
+        <section class="mt-16">
+            <div class="grid md:grid-cols-2 gap-12 items-center">
+                <div class="flex justify-center">
+                    <img src="https://images.unsplash.com/photo-1581338834647-bac79f4a5aeb?w=800&auto=format&fit=crop&q=80" alt="Signo de interrogación como metáfora de dudas sobre Temu" class="rounded-2xl shadow-xl w-full max-w-lg h-auto">
+                </div>
+                <div>
+                    <h2 class="text-3xl sm:text-4xl font-bold text-purple-700 mb-6">Preguntas Frecuentes</h2>
+                    <div class="space-y-6 text-gray-700">
+                        <div>
+                            <h3 class="font-semibold text-xl">¿Por qué Temu ofrece estos regalos?</h3>
+                            <p class="mt-2 leading-relaxed">
+                                Es una estrategia de marketing para ganar nuevos usuarios de forma masiva y rápida. A través de la promesa de regalos, incentivan a los usuarios a invitar a sus amigos, dándoles publicidad gratuita.
+                            </p>
+                        </div>
+                        <div>
+                            <h3 class="font-semibold text-xl">¿Qué pasa con mis datos personales?</h3>
+                            <p class="mt-2 leading-relaxed">
+                                Al participar, la aplicación puede acceder a tu lista de contactos y a otros datos que, según las políticas de privacidad, podrían ser usados para fines de marketing o para enviar notificaciones a tus amigos sin su consentimiento explícito.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Recursos útiles -->
+        <section class="mt-16 bg-gray-100 p-8 rounded-2xl shadow-inner">
+            <h2 class="text-3xl sm:text-4xl font-bold text-purple-700 mb-6 text-center">Recursos útiles</h2>
+            <ul class="space-y-4 text-lg text-gray-700 text-center">
+                <li><a href="https://www.argentina.gob.ar/produccion/defensadelconsumidor" target="_blank" class="text-purple-600 hover:underline">Defensa del Consumidor Argentina</a></li>
+                <li><a href="https://www.trustpilot.com/review/temu.com" target="_blank" class="text-purple-600 hover:underline">Opiniones en Trustpilot</a></li>
+            </ul>
+        </section>
+
+        <!-- Consejo final -->
+        <section class="mt-16 text-center">
+            <h2 class="text-3xl sm:text-4xl font-bold text-purple-700 mb-6">Nuestra recomendación</h2>
+            <p class="text-lg leading-relaxed text-gray-700 max-w-3xl mx-auto">
+                Te aconsejamos ser precavido con las promesas de regalos fáciles. La mejor forma de evitar una decepción es no participar en estos esquemas. Si necesitas comprar algo, busca plataformas con prácticas de marketing más transparentes y un historial probado de recompensas genuinas.
+            </p>
+        </section>
+    </main>
+
+    <!-- Pie de página -->
+    <footer class="bg-gray-800 text-gray-400 py-8 px-4 text-center">
+        <p>&copy; 2024 Advertencia sobre Temu. Todos los derechos reservados.</p>
+        <p class="mt-2">Creado con el objetivo de informar y proteger a la comunidad.</p>
+    </footer>
+
+    <script>
+        function showMessage(message, type) {
+            const messageBox = document.getElementById('messageBox');
+            messageBox.textContent = message;
+            messageBox.style.backgroundColor = type === 'error' ? '#F44336' : '#4CAF50';
+            messageBox.style.display = 'block';
+            setTimeout(() => {
+                messageBox.style.display = 'none';
+            }, 3000);
+        }
+
+        // Scroll suave
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
 </body>
-
 </html>
